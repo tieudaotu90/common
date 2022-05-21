@@ -1,0 +1,341 @@
+2022-05-21 08:16:15.835  INFO--[19-nio-8086-exec-1]
+            [                    ]o.a.c.c.C.[.[.[/]                        :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 08:16:15.835  INFO--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :Initializing Servlet 'dispatcherServlet'
+2022-05-21 08:16:15.835 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'multipartResolver'
+2022-05-21 08:16:15.835 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@64bc308a
+2022-05-21 08:16:15.835 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :No bean named 'localeResolver' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c5ae43b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,bootstrapImportSelectorConfiguration,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,environmentDecryptApplicationListener,encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,propertySourcesPlaceholderConfigurer,org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration,configClientProperties,configServicePropertySource]; root of factory hierarchy
+2022-05-21 08:16:15.836 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2022-05-21 08:16:15.836 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.837 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.837 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.838 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2022-05-21 08:16:15.839 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :No LocaleResolver 'localeResolver': using default [AcceptHeaderLocaleResolver]
+2022-05-21 08:16:15.839 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :No bean named 'themeResolver' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c5ae43b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,bootstrapImportSelectorConfiguration,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,environmentDecryptApplicationListener,encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,propertySourcesPlaceholderConfigurer,org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration,configClientProperties,configServicePropertySource]; root of factory hierarchy
+2022-05-21 08:16:15.839 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2022-05-21 08:16:15.840 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.840 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.840 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.840 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2022-05-21 08:16:15.840 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :No ThemeResolver 'themeResolver': using default [FixedThemeResolver]
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'resourceHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'swagger2ControllerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'webEndpointServletHandlerMapping'
+2022-05-21 08:16:15.842 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'controllerEndpointHandlerMapping'
+2022-05-21 08:16:15.843 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2022-05-21 08:16:15.843 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2022-05-21 08:16:15.843 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2022-05-21 08:16:15.844 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'handlerExceptionResolver'
+2022-05-21 08:16:15.844 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'errorAttributes'
+2022-05-21 08:16:15.844 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :No bean named 'viewNameTranslator' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c5ae43b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,bootstrapImportSelectorConfiguration,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,environmentDecryptApplicationListener,encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,propertySourcesPlaceholderConfigurer,org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration,configClientProperties,configServicePropertySource]; root of factory hierarchy
+2022-05-21 08:16:15.845 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2022-05-21 08:16:15.845 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.845 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.845 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.846 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2022-05-21 08:16:15.846 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :No RequestToViewNameTranslator 'viewNameTranslator': using default [DefaultRequestToViewNameTranslator]
+2022-05-21 08:16:15.847 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'mvcViewResolver'
+2022-05-21 08:16:15.847 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'thymeleafViewResolver'
+2022-05-21 08:16:15.847 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :No bean named 'flashMapManager' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c5ae43b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,bootstrapImportSelectorConfiguration,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,spring.cloud.config-org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,environmentDecryptApplicationListener,encrypt-org.springframework.cloud.bootstrap.encrypt.KeyProperties,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,propertySourcesPlaceholderConfigurer,org.springframework.cloud.config.client.ConfigServiceBootstrapConfiguration,configClientProperties,configServicePropertySource]; root of factory hierarchy
+2022-05-21 08:16:15.848 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2022-05-21 08:16:15.848 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.849 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.849 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'metaDataSourceAdvisor'
+2022-05-21 08:16:15.851 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2022-05-21 08:16:15.851 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :No FlashMapManager 'flashMapManager': using default [SessionFlashMapManager]
+2022-05-21 08:16:15.851 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-05-21 08:16:15.851  INFO--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :Completed initialization in 16 ms
+2022-05-21 08:16:15.864 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'springSecurityFilterChain'
+2022-05-21 08:16:15.869 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 1 of 11 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2022-05-21 08:16:15.870 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 2 of 11 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2022-05-21 08:16:15.870 DEBUG--[19-nio-8086-exec-1]
+            [                    ]w.c.HttpSessionSecurityContextRepository :No HttpSession currently exists
+2022-05-21 08:16:15.870 DEBUG--[19-nio-8086-exec-1]
+            [                    ]w.c.HttpSessionSecurityContextRepository :No SecurityContext was available from the HttpSession: null. A new one will be created.
+2022-05-21 08:16:15.872 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 3 of 11 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 4 of 11 in additional filter chain; firing Filter: 'LogoutFilter'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.OrRequestMatcher             :Trying to match using Ant [pattern='/logout', GET]
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.AntPathRequestMatcher        :Checking match of request : '/visa-api/offers/v1/all'; against '/logout'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.OrRequestMatcher             :Trying to match using Ant [pattern='/logout', POST]
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.AntPathRequestMatcher        :Request 'GET /visa-api/offers/v1/all' doesn't match 'POST /logout'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.OrRequestMatcher             :Trying to match using Ant [pattern='/logout', PUT]
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.AntPathRequestMatcher        :Request 'GET /visa-api/offers/v1/all' doesn't match 'PUT /logout'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.OrRequestMatcher             :Trying to match using Ant [pattern='/logout', DELETE]
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.AntPathRequestMatcher        :Request 'GET /visa-api/offers/v1/all' doesn't match 'DELETE /logout'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.u.m.OrRequestMatcher             :No matches found
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 5 of 11 in additional filter chain; firing Filter: 'BasicAuthenticationFilter'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 6 of 11 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.s.HttpSessionRequestCache        :saved request doesn't match
+2022-05-21 08:16:15.873 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 7 of 11 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2022-05-21 08:16:15.874 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 8 of 11 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2022-05-21 08:16:15.875 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.AnonymousAuthenticationFilter  :Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@7c2377dd: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2022-05-21 08:16:15.875 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 9 of 11 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2022-05-21 08:16:15.875 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 10 of 11 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2022-05-21 08:16:15.875 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all at position 11 of 11 in additional filter chain; firing Filter: 'FilterSecurityInterceptor'
+2022-05-21 08:16:15.876 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.i.FilterSecurityInterceptor    :Secure object: FilterInvocation: URL: /visa-api/offers/v1/all; Attributes: [permitAll]
+2022-05-21 08:16:15.876 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.i.FilterSecurityInterceptor    :Previously Authenticated: org.springframework.security.authentication.AnonymousAuthenticationToken@7c2377dd: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS
+2022-05-21 08:16:15.882 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.a.v.AffirmativeBased               :Voter: org.springframework.security.web.access.expression.WebExpressionVoter@6b50a1d9, returned: 1
+2022-05-21 08:16:15.882 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.i.FilterSecurityInterceptor    :Authorization successful
+2022-05-21 08:16:15.882 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.i.FilterSecurityInterceptor    :RunAsManager did not change Authentication object
+2022-05-21 08:16:15.882 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.FilterChainProxy                 :/visa-api/offers/v1/all reached end of additional filter chain; proceeding with original chain
+2022-05-21 08:16:15.890 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :GET "/visa-api/offers/v1/all", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2022-05-21 08:16:15.893 DEBUG--[19-nio-8086-exec-1]
+            [                    ]pertySourcedRequestMappingHandlerMapping :looking up handler for path: /visa-api/offers/v1/all
+2022-05-21 08:16:15.901 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'visaRestController'
+2022-05-21 08:16:15.902 TRACE--[19-nio-8086-exec-1]
+            [                    ]s.w.s.m.m.a.RequestMappingHandlerMapping :Mapped to public com.test.common.base.ResponseData<com.test.visa.model.response.merchant_offers.RetrieveAllOffersgetResponse> com.test.visa.controller.VisaRestController.retrieveAllOffers(javax.servlet.http.HttpServletRequest,java.lang.String,int,int) throws java.lang.Exception
+2022-05-21 08:16:15.939  INFO--[19-nio-8086-exec-1]
+            [null-6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.c.f.HTTPMonitoringInterceptor      :{"sourceAppIp":"0:0:0:0:0:0:0:1","destAppIp":"0:0:0:0:0:0:0:1","destAppPort":8086,"httpPath":"/visa-api/offers/v1/all","httpMethod":"GET","responseCode":0,"header":{"sec-fetch-mode":"cors","clientmessageid":"6bed0d9f-7e98-4ed4-9e0d-ae467994f519","referer":"http://localhost:8086/swagger-ui.html","sec-fetch-site":"same-origin","accept-language":"en-US,en;q=0.9","accept":"application/json","authorization":"<<Not recorded to log>>","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\"","sec-ch-ua-mobile":"?0","start_index":"1","max_offers":"1","sec-ch-ua-platform":"\"Windows\"","host":"localhost:8086","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36","sec-fetch-dest":"empty"},"body":null}
+2022-05-21 08:16:15.953 TRACE--[19-nio-8086-exec-1]
+            [null-6bed0d9f-7e98-4ed4-9e0d-ae467994f519].w.s.m.m.a.ServletInvocableHandlerMethod :Arguments: [SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@22ec362f], 6bed0d9f-7e98-4ed4-9e0d-ae467994f519, 1, 1]
+2022-05-21 08:16:15.953  INFO--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.v.c.VisaRestController             :[retrieveAllOffers] request clientMessageId:6bed0d9f-7e98-4ed4-9e0d-ae467994f519 - start_index:1 - max_offers:1
+2022-05-21 08:16:15.954  INFO--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.c.b.BaseObject                     :[loadKeyStore] keystorePath visa.jks
+2022-05-21 08:16:16.376  INFO--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.c.b.BaseObject                     :[getRestTemplateForMutualAuth] set proxy default
+2022-05-21 08:16:16.598  INFO--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.c.b.BaseObject                     :[InvokeAPI] request null
+2022-05-21 08:16:16.608 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.s.w.c.RestTemplate                     :HTTP GET https://api.visa.com/vmorc/offers/v1/all?max_offers=1&start_index=1
+2022-05-21 08:16:16.635 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.s.w.c.RestTemplate                     :Accept=[application/json, application/*+json]
+2022-05-21 08:16:16.652 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.p.RequestAddCookies              :CookieSpec selected: default
+2022-05-21 08:16:16.666 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.p.RequestAuthCache               :Auth cache not set in the context
+2022-05-21 08:16:16.667 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]h.i.c.PoolingHttpClientConnectionManager :Connection request: [route: {s}->https://api.visa.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2022-05-21 08:16:16.686 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]h.i.c.PoolingHttpClientConnectionManager :Connection leased: [id: 0][route: {s}->https://api.visa.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2022-05-21 08:16:16.688 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.i.e.MainClientExec                 :Opening connection {s}->https://api.visa.com:443
+2022-05-21 08:16:16.860 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519].i.c.DefaultHttpClientConnectionOperator :Connecting to api.visa.com/198.217.139.29:443
+2022-05-21 08:16:16.860 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.s.SSLConnectionSocketFactory     :Connecting socket to api.visa.com/198.217.139.29:443 with timeout 30000
+2022-05-21 08:16:17.097 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.s.SSLConnectionSocketFactory     :Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+2022-05-21 08:16:17.097 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.s.SSLConnectionSocketFactory     :Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2022-05-21 08:16:17.097 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.c.s.SSLConnectionSocketFactory     :Starting handshake
+2022-05-21 08:16:17.563 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]h.i.c.DefaultManagedHttpClientConnection :http-outgoing-0: Shutdown connection
+2022-05-21 08:16:17.563 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.a.h.i.e.MainClientExec                 :Connection discarded
+2022-05-21 08:16:17.564 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]h.i.c.PoolingHttpClientConnectionManager :Connection released: [id: 0][route: {s}->https://api.visa.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2022-05-21 08:16:39.835 TRACE--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'restExceptionHandler'
+2022-05-21 08:16:39.836 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519].m.m.a.ExceptionHandlerExceptionResolver :Using @ExceptionHandler public final org.springframework.http.ResponseEntity<java.lang.Object> com.test.visa.controller.RestExceptionHandler.handleAllException(com.test.visa.controller.VisaExceptionHandler,org.springframework.web.context.request.WebRequest)
+2022-05-21 08:16:39.836 TRACE--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519].w.s.m.m.a.ServletInvocableHandlerMethod :Arguments: [com.test.visa.controller.VisaExceptionHandler, ServletWebRequest: uri=/visa-api/offers/v1/all;client=0:0:0:0:0:0:0:1]
+2022-05-21 08:16:39.836 ERROR--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.v.c.RestExceptionHandler           :Error
+com.test.visa.controller.VisaExceptionHandler
+	at com.test.visa.service.ApiClient.invokeAPI(ApiClient.java:712)
+	at com.test.visa.service.common.api.OffersDataApiApi.getretrieveAllOffers(OffersDataApiApi.java:99)
+	at com.test.visa.service.logic.RetrieveAllOfferService.run(RetrieveAllOfferService.java:48)
+	at com.test.visa.controller.VisaRestController.retrieveAllOffers(VisaRestController.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-05-21 08:16:39.844 DEBUG--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.s.w.s.m.m.a.HttpEntityMethodProcessor  :Using 'application/json', given [application/json] and supported [application/json, application/*+json]
+2022-05-21 08:16:39.844 TRACE--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'HTTPMonitoringInterceptor'
+2022-05-21 08:16:39.854  INFO--[19-nio-8086-exec-1]
+            [6bed0d9f-7e98-4ed4-9e0d-ae467994f519]v.c.m.c.f.HTTPMonitoringInterceptor      :{"sourceAppIp":"0:0:0:0:0:0:0:1","destAppIp":"0:0:0:0:0:0:0:1","destAppPort":8086,"httpPath":"/visa-api/offers/v1/all","httpMethod":"GET","responseCode":500,"header":{},"body":"{\"status\":500,\"error\":\"Internal Server Error\",\"soaErrorCode\":\"500\",\"soaErrorDesc\":\"I/O error on GET request for \\\"https://api.visa.com/vmorc/offers/v1/all\\\": Connection reset; nested exception is javax.net.ssl.SSLException: Connection reset\",\"clientMessageId\":\"6bed0d9f-7e98-4ed4-9e0d-ae467994f519\",\"path\":\"http://localhost:8086/visa-api/offers/v1/all\",\"data\":null}"}
+2022-05-21 08:16:39.870 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.m.m.a.HttpEntityMethodProcessor  :Writing [ResponseData{status=500, error='Internal Server Error', soaErrorCode='500', soaErrorDesc='I/O error on GET request for "https://api.visa.com/vmorc/offers/v1/all": Connection reset; nested exception is javax.net.ssl.SSLException: Connection reset', clientMessageId='6bed0d9f-7e98-4ed4-9e0d-ae467994f519', path='http://localhost:8086/visa-api/offers/v1/all', data=null}]
+2022-05-21 08:16:39.878 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.h.w.HstsHeaderWriter             :Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@3bbd41e4
+2022-05-21 08:16:39.878 DEBUG--[19-nio-8086-exec-1]
+            [                    ]w.c.HttpSessionSecurityContextRepository :SecurityContext is empty or contents are anonymous - context will not be stored in HttpSession.
+2022-05-21 08:16:39.883 DEBUG--[19-nio-8086-exec-1]
+            [                    ].m.m.a.ExceptionHandlerExceptionResolver :Resolved [com.test.visa.controller.VisaExceptionHandler]
+2022-05-21 08:16:39.883 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :No view rendering, null ModelAndView returned.
+2022-05-21 08:16:39.883 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.w.s.DispatcherServlet                :Completed 500 INTERNAL_SERVER_ERROR, headers={masked}
+2022-05-21 08:16:39.883 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'delegatingApplicationListener'
+2022-05-21 08:16:39.884 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'enableEncryptablePropertySourcesPostProcessor'
+2022-05-21 08:16:39.884 TRACE--[19-nio-8086-exec-1]
+            [                    ]o.s.b.f.s.DefaultListableBeanFactory     :Returning cached instance of singleton bean 'refreshEventListener'
+2022-05-21 08:16:39.884 DEBUG--[19-nio-8086-exec-1]
+            [                    ]ptablePropertiesBeanFactoryPostProcessor :Application Event Raised: ServletRequestHandledEvent
+2022-05-21 08:16:39.884 DEBUG--[19-nio-8086-exec-1]
+            [                    ]ptablePropertiesBeanFactoryPostProcessor :Application Event Raised: ServletRequestHandledEvent
+2022-05-21 08:16:39.884 DEBUG--[19-nio-8086-exec-1]
+            [                    ]ptablePropertiesBeanFactoryPostProcessor :Application Event Raised: ServletRequestHandledEvent
+2022-05-21 08:16:39.889 DEBUG--[19-nio-8086-exec-1]
+            [                    ]o.s.s.w.a.ExceptionTranslationFilter     :Chain processed normally
+2022-05-21 08:16:39.889 DEBUG--[19-nio-8086-exec-1]
+            [                    ]s.s.w.c.SecurityContextPersistenceFilter :SecurityContextHolder now cleared, as request processing completed
